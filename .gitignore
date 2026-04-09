@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables — never commit this
+.env
+.env.local
+.env.*.local
+
+# ML model files — too large for Git, regenerate with train script
+backend/app/ml/models/*.pkl
+backend/app/ml/models/*.joblib
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# Coverage
+.coverage
+htmlcov/
