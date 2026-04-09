@@ -47,16 +47,17 @@ Built as a collaborative portfolio project demonstrating full-stack Python devel
 
 ## Project Structure
 
+```
 smart-expense-analyzer/
 ├── backend/
 │   ├── app/
-│   │   ├── main.py              # FastAPI entry point
-│   │   ├── database.py          # SQLAlchemy engine
-│   │   ├── models/              # ORM models
-│   │   ├── schemas/             # Pydantic schemas
-│   │   ├── routers/             # API route handlers
-│   │   ├── services/            # Business logic
-│   │   └── ml/                  # ML pipeline
+│   │   ├── main.py
+│   │   ├── database.py
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   ├── routers/
+│   │   ├── services/
+│   │   └── ml/
 │   │       ├── categorizer.py
 │   │       ├── predictor.py
 │   │       └── anomaly.py
@@ -75,3 +76,4 @@ smart-expense-analyzer/
 │   └── package.json
 │
 └── README.md
+```
