@@ -82,15 +82,7 @@ source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Configuration
-
-Copy the environment template. If you want AI-generated summaries, add your API keys. (The core app works perfectly without them).
-
-```bash
-cp .env.example .env
-```
-
-### 5. Run the Application
+### 4. Run the Application
 
 ```bash
 streamlit run app.py
