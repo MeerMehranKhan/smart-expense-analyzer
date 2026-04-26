@@ -24,18 +24,6 @@ This platform tells you: *"Your food delivery spending spiked 20% this month. Yo
 
 ---
 
-## 📸 Interface Preview
-
-### Dashboard Overview
-
-> (Insert Screenshot: Dashboard showing metrics, pie charts, and trendlines)
-
-### Anomaly & Recurring Bill Detection
-
-> (Insert Screenshot: Data table highlighting a detected anomaly and a list of identified subscriptions)
-
----
-
 ## 🚀 Key Features & Value
 
 We don't just list transactions; we interpret them.
